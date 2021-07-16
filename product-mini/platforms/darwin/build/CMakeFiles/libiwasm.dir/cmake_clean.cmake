@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/libiwasm.dir/Users/chairuilong/work/github/wasm-micro-runtime-main/core/iwasm/aot/aot_loader.c.o"
+  "CMakeFiles/libiwasm.dir/Users/chairuilong/work/github/wasm-micro-runtime-main/core/iwasm/aot/aot_runtime.c.o"
+  "CMakeFiles/libiwasm.dir/Users/chairuilong/work/github/wasm-micro-runtime-main/core/iwasm/aot/arch/aot_reloc_x86_64.c.o"
+  "CMakeFiles/libiwasm.dir/Users/chairuilong/work/github/wasm-micro-runtime-main/core/iwasm/common/arch/invokeNative_em64_simd.s.o"
+  "CMakeFiles/libiwasm.dir/Users/chairuilong/work/github/wasm-micro-runtime-main/core/iwasm/common/wasm_application.c.o"
+  "CMakeFiles/libiwasm.dir/Users/chairuilong/work/github/wasm-micro-runtime-main/core/iwasm/common/wasm_c_api.c.o"
+  "CMakeFiles/libiwasm.dir/Users/chairuilong/work/github/wasm-micro-runtime-main/core/iwasm/common/wasm_exec_env.c.o"
+  "CMakeFiles/libiwasm.dir/Users/chairuilong/work/github/wasm-micro-runtime-main/core/iwasm/common/wasm_memory.c.o"
+  "CMakeFiles/libiwasm.dir/Users/chairuilong/work/github/wasm-micro-runtime-main/core/iwasm/common/wasm_native.c.o"
+  "CMakeFiles/libiwasm.dir/Users/chairuilong/work/github/wasm-micro-runtime-main/core/iwasm/common/wasm_runtime_common.c.o"
+  "CMakeFiles/libiwasm.dir/Users/chairuilong/work/github/wasm-micro-runtime-main/core/iwasm/common/wasm_shared_memory.c.o"
+  "CMakeFiles/libiwasm.dir/Users/chairuilong/work/github/wasm-micro-runtime-main/core/iwasm/interpreter/wasm_interp_fast.c.o"
+  "CMakeFiles/libiwasm.dir/Users/chairuilong/work/github/wasm-micro-runtime-main/core/iwasm/interpreter/wasm_loader.c.o"
+  "CMakeFiles/libiwasm.dir/Users/chairuilong/work/github/wasm-micro-runtime-main/core/iwasm/interpreter/wasm_runtime.c.o"
+  "CMakeFiles/libiwasm.dir/Users/chairuilong/work/github/wasm-micro-runtime-main/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.c.o"
+  "CMakeFiles/libiwasm.dir/Users/chairuilong/work/github/wasm-micro-runtime-main/core/shared/mem-alloc/ems/ems_alloc.c.o"
+  "CMakeFiles/libiwasm.dir/Users/chairuilong/work/github/wasm-micro-runtime-main/core/shared/mem-alloc/ems/ems_hmu.c.o"
+  "CMakeFiles/libiwasm.dir/Users/chairuilong/work/github/wasm-micro-runtime-main/core/shared/mem-alloc/ems/ems_kfc.c.o"
+  "CMakeFiles/libiwasm.dir/Users/chairuilong/work/github/wasm-micro-runtime-main/core/shared/mem-alloc/mem_alloc.c.o"
+  "CMakeFiles/libiwasm.dir/Users/chairuilong/work/github/wasm-micro-runtime-main/core/shared/platform/common/posix/posix_malloc.c.o"
+  "CMakeFiles/libiwasm.dir/Users/chairuilong/work/github/wasm-micro-runtime-main/core/shared/platform/common/posix/posix_memmap.c.o"
+  "CMakeFiles/libiwasm.dir/Users/chairuilong/work/github/wasm-micro-runtime-main/core/shared/platform/common/posix/posix_thread.c.o"
+  "CMakeFiles/libiwasm.dir/Users/chairuilong/work/github/wasm-micro-runtime-main/core/shared/platform/common/posix/posix_time.c.o"
+  "CMakeFiles/libiwasm.dir/Users/chairuilong/work/github/wasm-micro-runtime-main/core/shared/platform/darwin/platform_init.c.o"
+  "CMakeFiles/libiwasm.dir/Users/chairuilong/work/github/wasm-micro-runtime-main/core/shared/utils/bh_assert.c.o"
+  "CMakeFiles/libiwasm.dir/Users/chairuilong/work/github/wasm-micro-runtime-main/core/shared/utils/bh_common.c.o"
+  "CMakeFiles/libiwasm.dir/Users/chairuilong/work/github/wasm-micro-runtime-main/core/shared/utils/bh_hashmap.c.o"
+  "CMakeFiles/libiwasm.dir/Users/chairuilong/work/github/wasm-micro-runtime-main/core/shared/utils/bh_list.c.o"
+  "CMakeFiles/libiwasm.dir/Users/chairuilong/work/github/wasm-micro-runtime-main/core/shared/utils/bh_log.c.o"
+  "CMakeFiles/libiwasm.dir/Users/chairuilong/work/github/wasm-micro-runtime-main/core/shared/utils/bh_queue.c.o"
+  "CMakeFiles/libiwasm.dir/Users/chairuilong/work/github/wasm-micro-runtime-main/core/shared/utils/bh_vector.c.o"
+  "CMakeFiles/libiwasm.dir/Users/chairuilong/work/github/wasm-micro-runtime-main/core/shared/utils/runtime_timer.c.o"
+  "libiwasm.dylib"
+  "libiwasm.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang ASM C)
+  include(CMakeFiles/libiwasm.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
