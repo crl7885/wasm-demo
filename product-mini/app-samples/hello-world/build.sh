@@ -2,10 +2,10 @@
 # SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 
 WAMR_DIR=${PWD}/../../..
-CC="[WASI_SDK_PATH]/bin/clang --sysroot=[WASI_SDK_PATH]/share/wasi-sysroot"
+
+WASI_SDK_PATH=/opt/wasi-sdk/
 
 echo "Build wasm app .."
-# /opt/wasi-sdk/bin/clang -O3 \
 ${WASI_SDK_PATH}/bin/clang -O3 \
         -z stack-size=4096 -Wl,--initial-memory=65536 \
         --sysroot=${WASI_SDK_PATH}/share/wasi-sysroot \

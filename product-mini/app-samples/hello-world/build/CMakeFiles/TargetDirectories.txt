@@ -1,3 +1,0 @@
-/Users/chairuilong/work/github/wasm-micro-runtime-main/product-mini/app-samples/hello-world/build/CMakeFiles/rebuild_cache.dir
-/Users/chairuilong/work/github/wasm-micro-runtime-main/product-mini/app-samples/hello-world/build/CMakeFiles/edit_cache.dir
-/Users/chairuilong/work/github/wasm-micro-runtime-main/product-mini/app-samples/hello-world/build/CMakeFiles/binarydump.dir
